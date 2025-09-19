@@ -20,7 +20,6 @@ Table of Contents
 7. [Future Improvements](#future-improvements)
 8. [Team](#team)
 
----
 
 ## Project Overview
 
@@ -33,7 +32,6 @@ The robot integrates:
 
 The primary objective is to ensure robust navigation, real-time victim detection, and obstacle avoidance in compliance with RoboCup Rescue Maze competition standards.
 
----
 
 ## Competition Requirements
 
@@ -45,7 +43,6 @@ The RoboCup Rescue Maze competition specifies that the robot must:
 * Perform precise movements through narrow and complex paths.
 * Manage power efficiently to sustain long runs.
 
----
 
 ## System Architecture
 
@@ -73,7 +70,6 @@ This design ensures stability, modularity, and ease of maintenance.
   * Limit switch
 * **Vision Unit**: Raspberry Pi 5 with two camera modules
 
----
 
 ## Software Architecture
 
@@ -98,7 +94,6 @@ Handles vision and high-level decision making:
 * Noise reduction and image preprocessing (erosion/dilation filters).
 * Automated startup via systemd service.
 
----
 
 ## Control and Navigation Algorithms
 
@@ -109,7 +104,6 @@ Handles vision and high-level decision making:
 * **Gyroscope Integration**: Angle tracking for accurate turns.
 * **Map Navigation**: Maze matrix updated with visited nodes and wall data.
 
----
 
 ## Performance and Testing
 
@@ -131,7 +125,6 @@ Handles vision and high-level decision making:
 * Reliable OCR recognition of victim letters.
 * Stable frame processing rate on Raspberry Pi 5.
 
----
 
 ## Future Improvements
 
@@ -142,14 +135,14 @@ Handles vision and high-level decision making:
 * Refactor software using state machines or behavior trees for modularity.
 * Explore reinforcement learning for adaptive maze-solving strategies.
 
----
 
 ## Team
 
 **Maram Ouelhazi** - [maramOuelhazii](https://github.com/maramOuelhazii)
+
 **Wissal Naouaii** - [WissalNaouaiii](https://github.com/WissalNaouaii)
 
 
 
-*You can consult the detailed specifications document [here](RCJRescueMaze2024RulesDraft.pdf).*
+*You can consult the detailed specifications document [here](RCJRescueMaze2024RulesDraft.pdf),*
 *and the Engineering Journal [here](rescue_maze.pdf).*
