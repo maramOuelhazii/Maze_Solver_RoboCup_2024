@@ -3,6 +3,7 @@ The robot navigates a maze-like disaster environment using DFS, detects letter a
 Table of Contents
 
 
+
 ## Table of Contents
 
 1. [Project Overview](#project-overview)
@@ -21,6 +22,7 @@ Table of Contents
 8. [Team](#team)
 
 
+
 ## Project Overview
 
 The **RCJ Rescue Maze Robot** was designed to meet the challenges of autonomous navigation in rescue maze environments.
@@ -33,6 +35,7 @@ The robot integrates:
 The primary objective is to ensure robust navigation, real-time victim detection, and obstacle avoidance in compliance with RoboCup Rescue Maze competition standards.
 
 
+
 ## Competition Requirements
 
 The RoboCup Rescue Maze competition specifies that the robot must:
@@ -42,6 +45,7 @@ The RoboCup Rescue Maze competition specifies that the robot must:
 * Recognize victim identifiers such as letters and colors.
 * Perform precise movements through narrow and complex paths.
 * Manage power efficiently to sustain long runs.
+
 
 
 ## System Architecture
@@ -95,6 +99,7 @@ Handles vision and high-level decision making:
 * Automated startup via systemd service.
 
 
+
 ## Control and Navigation Algorithms
 
 * **Depth-First Search (DFS)**: Used for pathfinding and backtracking.
@@ -103,6 +108,7 @@ Handles vision and high-level decision making:
   * Proportional, Integral, and Derivative components tuned for precision.
 * **Gyroscope Integration**: Angle tracking for accurate turns.
 * **Map Navigation**: Maze matrix updated with visited nodes and wall data.
+
 
 
 ## Performance and Testing
@@ -124,6 +130,7 @@ Handles vision and high-level decision making:
 * Accurate detection of red, yellow, green, and black tiles.
 * Reliable OCR recognition of victim letters.
 * Stable frame processing rate on Raspberry Pi 5.
+
 
 
 ## Future Improvements
