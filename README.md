@@ -151,4 +151,4 @@ Handles vision and high-level decision making:
 
 
 *You can consult the detailed specifications document [here](RCJRescueMaze2024RulesDraft.pdf),*
-*and the Engineering Journal [here](rescue_maze.pdf).*
+*and the Engineering Journal [here](Engineering_Journal_rescue_maze.pdf).*
